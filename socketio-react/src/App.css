@@ -1,0 +1,49 @@
+.App {
+  padding: 40px;
+}
+
+.App-header {
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+}
+
+.input {
+  width: 100%;
+  max-width: 400px;
+  height: 50px;
+  padding: 0 16px;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 18px;
+  outline: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.item div {
+  padding: 16px;
+}
+
+.item-id {
+  width: 40px;
+}
+
+.item-name {
+  width: 300px;
+}
+
+.item-active {
+  width: 100px;
+}
+
+.item-status {
+  width: 160px;
+}
+
+.item-owner {
+  width: 200px;
+}
